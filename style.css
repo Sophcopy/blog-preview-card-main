@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+
+}    
+body{
+    background-color: hsl(47, 88%, 63%) ;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 0 rgb(0,0 ,0);
+    ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text{
+    width: fit-content;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid hsl(47, 88%, 63%);
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: 500;
+    background-color: hsl(47, 88%, 63%);
+}
+
+h1{
+    font-weight: 800;
+}
+
+p{
+    color: hsl(0, 0%, 7%);
+}
+
+.intro{
+    font-size: 16px;
+    color:  hsl(0, 0%, 42%);
+    margin-bottom: 0.9rem;;
+}
+
+.avatar-main{
+    display: flex;
+    gap: 10px;
+    align-items: center ;
+    
+}
+h3{
+    font-size: 14px;
+}
+.avatar-container img{
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    font-size: 12px;
+    color: hsl(0, 0%, 42%);
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
