@@ -2,7 +2,6 @@
     margin: 0;
     font-family: "Figtree", sans-serif;
     padding: 0;
-
 }    
 body{
     background-color: hsl(47, 88%, 63%) ;
@@ -12,8 +11,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
 section{
     
     background-color: hsl(0, 0%, 100%);
@@ -24,7 +21,6 @@ section{
     box-shadow: 10px 10px 0 rgb(0,0 ,0);
     ;
 }
-
 .card{
     display: flex;
     flex-direction: column;
@@ -76,7 +72,6 @@ h3{
     width: 40px;
     height: 40px;
 }
-
 footer{
     font-size: 12px;
     color: hsl(0, 0%, 42%);
@@ -86,4 +81,35 @@ footer{
 a{
     text-decoration: none;
     color: green;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .intro {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .intro br {
+        display: none;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
